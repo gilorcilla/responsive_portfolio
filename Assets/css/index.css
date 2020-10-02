@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Tribuchet MS", "Lucida Sans Unicode", "Trebuchet MS",
+    "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  font-size: 18px;
+  line-height: 25px;
+  color: black;
+  background: paleturquoise;
+}
+h2 {
+  color: black;
+}
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  clear: both;
+}
+
+#portfolio {
+  margin-top: 48px;
+}
+#logo {
+  color: paleturquoise;
+  /*background-color: darkgray; opacity: 90%*/
+  /*border-color: darkgray;*/
+  padding: 20px;
+  font-family: serif;
+  font-weight: 200;
+  font-size: 20pt;
+  text-align: center;
+  border-radius: 0.1rem;
+}
