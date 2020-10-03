@@ -33,5 +33,245 @@ header {
 }
 
 nav {
+  margin-right: 130px;
+  font-weight: 800;
   float: right;
+  color: #cccccc;
+}
+
+.main picture {
+  padding-top: 25px;
+  padding-right: 20px;
+  float: left;
+}
+
+.main {
+  float: left;
+  padding: 0px 30px 30px 30px;
+  border: solid 1px #dddddd;
+  margin: 40px 0px 40px 30px;
+  width: 590px;
+  color: #777777;
+  background-color: #ffffff;
+}
+
+.mainTitle {
+  font-weight: 800;
+  font-family: "Georgia", "Times New Roman", Times, serif;
+  line-height: 100px;
+  border-bottom: solid 2px #dddddd;
+  font-size: 30px;
+  color: #4aaaa5;
+}
+
+.socialLinks {
+  text-align: center;
+  padding: 20px 0px 40px 0px;
+}
+
+.connect {
+  font-size: 26px;
+  font-weight: 400;
+  letter-spacing: 0.75px;
+  color: #4aaaa5;
+  text-align: center;
+  border-bottom: solid 1px #dddddd;
+  line-height: 72px;
+}
+
+aside {
+  border: solid 1px #dddddd;
+  margin: 40px 0px 0px 40px;
+  background-color: #ffffff;
+  float: left;
+  padding: 0px 30px 0px 30px;
+}
+
+p {
+  font-size: 19px;
+  letter-spacing: 0.5px;
+  font-weight: "Arial", Helvetica normal, Helvetica, sans-serif;
+  line-height: 1.7;
+  padding-top: 25px;
+  padding-right: 20px;
+}
+.nav a:hover {
+  font-size: 18px;
+  font-family: "Arial", Helvetica Normal, Helvetica, sans-serif;
+  padding-right: 15px;
+  padding-left: 15px;
+  text-decoration: none;
+  color: #4aaaa5;
+}
+
+.nav a:link,
+a:active,
+a:visited {
+  font-size: 18px;
+  font-family: "Arial", Helvetica Normal, Helvetica, sans-serif;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+  text-decoration: none;
+  color: #777777;
+}
+
+footer {
+  border-top: solid 8px #4aaaa5;
+  text-align: center;
+  font-size: 12px;
+  font-family: "Arial", Helvetica Normal, Helvetica, sans-serif;
+  color: #ffffff;
+  background-color: #666666;
+  border-bottom: solid 1px #777777;
+  line-height: 90px;
+  width: 100px;
+  height: 90px;
+}
+
+.links {
+  padding-left: 10px;
+}
+
+form {
+  color: #777777;
+  font-size: 18px;
+  font-family: Arial, Helvetica Normal, Helvetica, sans-serif;
+  margin-top: 30px;
+}
+
+input {
+  font-size: 18px;
+  font-family: Arial, Helvetica Normal, Helvetica, sans-serif;
+  height: 32px;
+  margin: 10px, 0 20px;
+  width: 100px;
+}
+
+#message {
+  height: 200px;
+  width: 100px;
+}
+
+input[type="submit" 1] {
+  width: 115px;
+  height: 40px;
+  background-color: #4aaaa5;
+  color: white;
+  font-size: 16px;
+  margin: 8px;
+  cursor: pointer;
+  border: none;
+}
+
+.gallery {
+  margin: 40px 0px 0px 0px;
+  float: left;
+}
+
+.galleryPic {
+  height: 205px;
+  width: 275px;
+  margin: 0 20px 55px 0;
+  float: left;
+  position: relative;
+}
+
+.banner {
+  line-height: 60px;
+  text-align: center;
+  font-size: 18px;
+  color: #ffffff;
+  background-color: #4aaaa5;
+  height: 60px;
+  width: inherit;
+  bottom: 10px;
+  position: absolute;
+}
+
+@media screen and (max-width: 640 px) {
+  header {
+    position: static;
+  }
+}
+.name {
+  width: 100px;
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  width: 100%;
+  text-align: center;
+  float: left;
+  font-size: 18px;
+  color: #cccccc;
+  background-color: #ffffff;
+}
+
+.main {
+  margin: 20px, 20px 0px 20px;
+  width: 540px;
+  padding: 0px 30px 30px 30px;
+}
+
+aside {
+  border: solid 1px #dddddd;
+  padding: 0px 30px 0px 30px;
+  float: left;
+  margin: 40p 20px 0px 20px;
+  width: 540px;
+}
+
+.gallery {
+  margin: 40px 0px 0px 0px;
+  text-align: center;
+}
+
+.galleryPic {
+  height: 375px;
+  width: 500px;
+  margin: 0 30px 40px 30px;
+  float: left;
+  position: relative;
+}
+
+@media screen and (max-width: 768px) {
+}
+
+nav {
+  float: right;
+  margin-right: 20px;
+  color: #cccccc;
+  font-size: 18px;
+}
+
+.main {
+  padding: 0px 30px 30px 30px;
+  margin: 40px 20px 0px 20px;
+  width: 660px;
+}
+
+aside {
+  border: solid 1px #dddddd;
+  padding: 0 px 30px 0px 30px;
+  float: left;
+  margin: 40px 20px 0px 20px;
+  width: 660px;
+}
+
+@media screen and (max-width: 980px) {
+  padding: 0px 30px 30px 30px;
+  margin: 40px 0px 40px 50px;
+  width: 360px;
+}
+
+aside {
+  padding: 0px 30px 0px 30px;
+  float: left;
+  margin: 40px 40px 0px 40px;
+}
+
+.name {
+  margin-left: 50px;
 }
