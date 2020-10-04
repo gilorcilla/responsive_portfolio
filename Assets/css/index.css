@@ -1,8 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-image: url(../Images/background.jpg);
   background-repeat: repeat;
   background-position: left top;
   width: 100;
+  height: 100%;
 }
 
 .clearfix {
@@ -43,7 +48,7 @@ nav {
 .main picture {
   padding-top: 25px;
   padding-right: 20px;
-  float: left;
+  /* float: left; */
 }
 
 .main {
@@ -125,9 +130,10 @@ footer {
   color: #ffffff;
   background-color: #666666;
   border-bottom: solid 1px #777777;
-  line-height: 90px;
+  /*line-height: 90px;*/
   width: 100px;
   height: 90px;
+  margin-top: -20px; /*margin from the lowest portion of the container*/
 }
 
 .links {
