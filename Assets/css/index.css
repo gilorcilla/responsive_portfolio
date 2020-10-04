@@ -140,13 +140,23 @@ footer {
   padding-left: 10px;
 }
 
-form {
+/* form { 
   color: #777777;
   font-size: 18px;
   font-family: Arial, Helvetica Normal, Helvetica, sans-serif;
   margin-top: 30px;
+}*/
+/*adding this one after I included some bootstrap form*/
+# {
+  min-height: 60vh;
+  width: 100%;
+  max-width: 960 px;
+  margin: 0 auto;
+  clear: both;
+  padding-bottom: 5%;
+  padding: 5%;
+  /*margin: 5%;*/
 }
-
 input {
   font-size: 18px;
   font-family: Arial, Helvetica Normal, Helvetica, sans-serif;
