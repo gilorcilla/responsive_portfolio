@@ -1,77 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About Me</title>
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
-      crossorigin="anonymous"
-    />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
 
-    <link rel="stylesheet" href="./Assets/css/reset.css" />
-    <link rel="stylesheet" href="./Assets/css/index.css" />
-  </head>
-  <body>
-    <header>
-      <h1 class="name">Gil Orcilla</h1>
-      <nav class="nav">
-        <a href="index.html">About</a> |
-        <a href="portfolio.html">Portfolio</a> |
-        <a href="contact.html">Contact</a>
-      </nav>
-    </header>
+    <!-- custom CSS -->
+    <link href="./Assets/css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./contact.html" />
 
-    <section class="main clearfix">
-      <h2 class="mainTitle">About Me</h2>
-      <img
-        class="myPicture"
-        alt="This is a photo of me?"
-        src="./Assets/Images/My_Picture.png"
-        height="207"
-        width="207"
-      />
+</head>
 
-      <p>
-        I'm Gil - I graduated with a Bachelor of Science in Computer Engineering
-        and a Master of Science in Computer Engineering from Colorado Technical
-        University in Colorado Springs, Colorado.
-      </p>
-      <br />
-      <p>
-        I fell in love with technology after serving the Air Force for nine and
-        a half years, that led me in pursuing an engineering degrees. While I
-        was studying, I was fortunate to get some exposure and worked for a
-        government agency as a Systems Engineer. Consequently, after my Master's
-        degree; I was offered another job by another government agency in the
-        east coast utilizing my Computer Engineering skills.
-      </p>
-      <br />
-      <p>
-        I have enrolled in the Coding Bootcamp at University of Denver to
-        further my coding and skills. Feel free to browse my most recent
-        projects on my Portfolio page. Dont forget to say hello by visiting my
-        contact page.
-      </p>
-    </section>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Gil Orcilla</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-    <aside>
-      <div class="connect">Connect with Me</div>
-      <div class="socialLinks">
-        <a href="https://github.com/gilorcilla"
-          ><img src="./Assets/Images/github.png" height="60" width="60"
-        /></a>
-        <a href="https://linkedin.com/in/gilorcilla"
-          ><img src="./Assets/Images/linkedin.png" height="60" width="60"
-        /></a>
-        <a href="https://ieee.org"
-          ><img src="./Assets/Images/ieee.png" height="60" width="60"
-        /></a>
-      </div>
-    </aside>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">
+                        <main></main>
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
 
-    <footer id="footer">Copyright &copy Gil Orcilla 2020</footer>
-  </body>
+
+
+
+                <a class="dropdown-item" href="./index.html">About</a>
+                <a class="dropdown-item" href="./portfolio.html">Portfolio</a>
+
+                <a class="dropdown-item" href="#">Contact</a>
+
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h2> Something About me...</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <img src="./Assets/Images/My_Picture.png" class="img-fluid" />
+            </div>
+            <div class="col-md-6">
+                <span>I'm Gil - I graduated with a Bachelor of Science in Computer Engineering and a Master in Computer
+                    Engineering degree from Colorado Technical University in Colorado Springs, Colorado.</span>
+                <br>
+                <br>
+                <p>I am an Air Force veteran with nine and a half years of active duty experience. I fell in love with
+                    technology while serving in the military. I had the opportunity to work for a government agency in
+                    Colorado
+                    Springs, Colorado while pursuing my degrees. After graduation, I accepted an offer and eventually
+                    moved
+                    to
+                    the east coast and spent about four years to pursue my dream.
+                </p>
+                <br>
+                <p>I have enrolled in the Coding Bootcamp at University of Denver to enhance my coding skills and pursue
+                    a
+                    career
+                    in software development. Feel free to take a look at my most recen projects in my portfolio. If you
+                    want to
+                    be
+                    in touch please visit my contact page.</p>
+            </div>
+
+            <!-- <div class="col-md-4"> -->
+            <!-- <img src="./Assets/Images/github.png" class="w-25" alt="Github Icon"> -->
+
+            <!-- </div> -->
+            <!-- <div id="connectWithMeContainer" class="contentSection"> -->
+
+            <!-- <h2 id="connectWithMeCaption">Connect With Me</h2> -->
+            <!--<hr  <table id="LogoFarm" width="100%"> -->
+            <!-- <tr> -->
+            <!-- <td align="center"><a href="https://github.com" target="_blank"></a></td> -->
+            <!-- </tr> -->
+            <!-- </table> -->
+            <!-- </div> -->
+
+            <!-- </div> -->
+            <!--<p>
+                I'm Gil - I graduated with a Bachelor of Science in Computer Engineering and a Master in Computer
+                Engineering degree from Colorado Technical University in Colorado Springs, Colorado.
+            </p>
+            <br>
+            <p>
+                I am an Air Force veteran with nine and a half years of active duty experience. I fell in love with
+                technology while serving in the military. I had the opportunity to work for a government agency in
+                Colorado
+                Springs, Colorado while pursuing my degrees. After graduation, I accepted an offer and eventually moved
+                to
+                the east coast and spent about four years to pursue my dream.
+            </p>
+            <br>
+            I have enrolled in the Coding Bootcamp at University of Denver to enhance my coding skills and pursue a
+            career
+            in software development. Feel free to take a look at my most recen projects in my portfolio. If you want to
+            be
+            in touch please visit my contact page.-->
+            <!--</div>-->
+            <footern class="footer>">
+                &copy; Copyright Gil Orcilla 2020
+            </footern>
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+                integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+                crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+                integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+                crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+                integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+                crossorigin="anonymous"></script>
+</body>
+
 </html>
