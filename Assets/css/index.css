@@ -254,9 +254,23 @@ aside {
 }
 
 @media screen and (max-width: 768px) {
+  header {
+    display: block;
+  }
+  .nav {
+    width: 100%;
+    align-items: center;
+  }
+  .name {
+    padding: 2%;
+    margin: 2%;
+  }
+  .nav a {
+    width: 30%;
+  }
 }
 
-nav {
+/* nav {
   float: right;
   margin-right: 20px;
   color: #cccccc;
@@ -275,9 +289,9 @@ aside {
   float: left;
   margin: 40px 20px 0px 20px;
   width: 660px;
-}
+} */
 
-@media screen and (max-width: 980px) {
+/* @media screen and (max-width: 980px) {
   padding: 0px 30px 30px 30px;
   margin: 40px 0px 40px 50px;
   width: 360px;
@@ -291,4 +305,4 @@ aside {
 
 .name {
   margin-left: 50px;
-}
+} */
