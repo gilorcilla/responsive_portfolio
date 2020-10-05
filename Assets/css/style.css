@@ -1,0 +1,14 @@
+.aboutme {
+  display: flex;
+  float: left;
+}
+
+.portfoliosection {
+  position: relative;
+}
+.portfolio-text {
+  position: absolute;
+  bottom: 10px;
+  width: 96%;
+  background-color: lightblue;
+}
