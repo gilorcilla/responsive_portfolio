@@ -12,13 +12,31 @@ My objective is to create a Responsive Portfolio to ensure that web applications
 - [Installation](https://github.com/gilorcilla/responsive_portfolio#installation)
 - [Test](https://github.com/gilorcilla/responsive_portfolio#test)
 - [Built](https://github.com/gilorcilla/responsive_portfolio#built-with)
-- [License]()
 
 ### Description
 
-### Installation
+Minimum Requirements are:
+
+- Functional, deployed application
+- Github repository with README describing the project
+- Navbar must be consistent on each page
+- Navbar on each page must contain links to Home/About, Contact, and Portfolio pages
+- All links must work
+- Must use semantic html
+- Each page must have valid and correct HTML.
+- Must contain your personalized information.
+- Must properly utilize Bootstrap components and grid system
+
+### Procedures
+
+- You have to create a github repository on the remote github site
+- Clone your remote repo to your local repo
+- Create index.html, portfolio.html, and contact.html
+- Prepare all your links and images
 
 ### Built With
+
+-[Visual Studio Code](https://code.visualstudio.com/) -[Bootstrap Code](https://getbootstrap.com/) -[HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5) -[CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
 ### Test
 
