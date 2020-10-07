@@ -1,6 +1,14 @@
 .aboutme {
-  display: flex;
+  /* display: flex;
+  float: left; */
+  color: aqua;
+}
+img {
   float: left;
+}
+
+.clearfix {
+  overflow: auto;
 }
 
 .portfoliosection {
@@ -9,6 +17,33 @@
 .portfolio-text {
   position: absolute;
   bottom: 10px;
-  width: 96%;
+  width: 94%;
+  /*width: 350px;
+  height: 350px;*/
   background-color: lightblue;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.myname {
+  background-color: aqua;
+  padding: 5%;
+  color: white;
+  color: #ffffff;
+  font-size: 30px;
+  font-family: "Georgia", "Times New Roman", Times, serif;
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.container {
+  padding: 10px;
+  background-color: red;
+  border: 1px solid black;
+  padding: 5%;
 }
