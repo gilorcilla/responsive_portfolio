@@ -36,7 +36,13 @@ Minimum Requirements are:
 
 ### Built With
 
--[Visual Studio Code](https://code.visualstudio.com/) -[Bootstrap Code](https://getbootstrap.com/) -[HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5) -[CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+-[Visual Studio Code](https://code.visualstudio.com/)
+
+-[Bootstrap Code](https://getbootstrap.com/)
+
+-[HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
+
+-[CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
 ### Test
 
